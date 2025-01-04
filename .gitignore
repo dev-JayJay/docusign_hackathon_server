@@ -1,0 +1,50 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore build and distribution directories
+/dist
+/build
+/out
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore OS-specific files
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# Ignore IDE or editor-specific files
+.vscode/            # VS Code settings
+.idea/              # JetBrains IDEs
+*.sublime-workspace # Sublime Text workspace
+*.sublime-project   # Sublime Text project
+
+# Ignore package lock files for Node.js (only if you're not sharing the lock file)
+# package-lock.json
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore temporary files
+*.swp
+*.swo
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore coverage reports (for testing tools)
+coverage/
+*.lcov
+
+# Ignore compiled Java files
+*.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
